@@ -12,12 +12,6 @@
   <body>
     <div id="vue-instance">
       <div class="chat-container full-width" ref="chatContainer">
-        <div class="title-header">
-          <h1>OPEN CRYPTOCHAT</h1>
-          <h2>A minimalist, open-source, end-to-end encrypted chat application.</h2>
-          <p>Disclaimer - This website is part of a tutorial on end-to-end webapp encryption, and is intended to be used as a learning resource. Please do not use it to share sensitive information.</p>
-          <p class="yellow">To learn how to build your own encrypted chat app, check out the <a class="blog-plug" target="_blank" rel="noopener" href="https://blog.patricktriest.com">tutorial</a>.</p>
-        </div>
         <div class="message-list">
           <div class="message full-width" v-for="message in messages">
             <p>
